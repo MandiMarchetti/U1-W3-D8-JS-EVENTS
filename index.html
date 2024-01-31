@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Form & Events</title>
+
+    <link rel="stylesheet" href="./assets/css/form.css">
+</head>
+
+<header>
+    <div>
+        <h1>We Want to Know Your Opinion </h1>
+        <h3>Do you believe that artificial intelligence might steal your job in the future? Why?</h3>
+    </div>
+</header>
+
+<body>
+    <div>
+        <p><strong>"As an accountant, Sarah is concerned about the automation of accounting and financial tasks. 
+            She believes that artificial intelligence may replace many of the functions she currently performs, 
+            making her job obsolete in the future."</strong> 
+            <span>Sarah Johnson - Accountant </span></p>
+        <p><strong> "As a software engineer, Kevin is aware of the rapid advancement of AI in the field of software development. 
+            He fears that AI technologies may eventually replace the need for human programmers, making his profession 
+            less relevant."</strong> 
+            <span> - Kevin Roberts - Software Engineer</span></p>
+        <p><strong> "As a history teacher, Emily sees the potential of artificial intelligence to transform education. 
+            She believes that AI tools can help personalize teaching, offering more effective and engaging 
+            learning experiences for students."</strong>
+            <span> - Emily White - </span></p>
+        <p><strong> "As a graphic designer, Jason is excited about the creative possibilities that artificial intelligence 
+            offers. He believes that AI tools can automate repetitive tasks and provide valuable insights to enhance 
+            the creative process, allowing designers to focus on more innovative projects."</strong> 
+            <span>- Jason Adams - Graphic Designer</span></p>
+        <p><strong> "As a doctor, Jessica recognizes the potential of artificial intelligence to transform medicine, improving
+             diagnosis, treatment, and medical research. However, she is also aware of the ethical and social challenges 
+             associated with widespread adoption of AI in healthcare, and believes it is important to address these 
+             issues carefully and responsibly."</strong><span> - Jessica Miller - Doctor</span></p>
+    </div>
+    <form>
+        <div class="form-group">
+            <label for="text">Your Name</label>
+            <input type="text" id="name" placeholder="What's your name?" required>
+            <button type="submit">Clean</button>            
+        </div>
+        <div class="form-group">
+            <label for="text">Your Profession</label>
+            <input type="text" id="profession" placeholder="What do you work with?" required>
+            <button type="submit">Clean</button>            
+        </div>
+        
+        <!--<div class="form-group">
+            <label for="title">Titolo</label>
+            <input type="text" id="title" placeholder="Inserisci un titolo" required>
+        </div>!-->
+        <div class="form-group">
+            <label for="description">Your Answer</label>
+            <textarea type="text" id="answer" placeholder="Tell us about you opinion" required></textarea>
+            <button type="submit">Clean</button>  
+        </div>
+        <button type="submit">Submit</button>
+        <button type="submit">Clean the Form</button>
+        
+    </form>
+
+
+    <script src="./js/form.js"></script>
+</body>
+
+</html>
