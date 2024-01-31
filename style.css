@@ -49,6 +49,10 @@
     margin: 0px 50px 50px 50px;
   }
 
+  .main{
+    height: auto;
+  }
+
   label {
     display: block;
     color: #5B5148;
@@ -67,6 +71,7 @@
   form {
     width: max-content;
     margin-inline: auto;
+    margin-bottom: 30px;
     
   }
   
@@ -81,14 +86,20 @@
     background-color: #F1D7B6;
     border-radius: 10%;
     border-color: #5B5148;
-    
+        
   }
 
-  form button{
+  .box-button{
+    display: flex;
+    text-align: center;
+    margin-left: 15px;
+  }
+
+  form div button{
     color: #5B5148;
-    font-style: italic;
     background-color: #F1D7B6;
     border-radius: 10%;
     border-color: #5B5148;
+    
     
   }
