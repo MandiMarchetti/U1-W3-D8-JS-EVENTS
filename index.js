@@ -1,8 +1,7 @@
-const submitTheAnswer = function(){
-    const bottone = document.getElementsByClassName("box-button");
 
-    
-}
+
+
+
 
 
 
